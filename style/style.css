@@ -1,30 +1,19 @@
-body{
-    box-sizing: border-box;
 
-}
-.wrapper{
+.wrapper--main{
    background-image: url(../img/first-screen.png);
-   height: 100vh;
-   width: 100%;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+   
    
 }
-.conteiner{
-    max-width: 1200px;
-    margin: 0 auto;
-    
-}
+
 .main-link{
 padding: 17px;
 font-size: 20px;
 font-weight: bold;
 text-transform: uppercase;
-text-decoration: none;
+
 display: inline-block;
 min-width: 200px;
-cursor: pointer;
+
 }
 .main-link--start{
    background-color: gold; 
