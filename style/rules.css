@@ -1,5 +1,6 @@
 .wrapper--rules{
     background-image: url(../img/rules.png);
+    
 }
 #rules{
 display: flex;
@@ -10,7 +11,7 @@ align-items: center;
 gap: 20px;
 margin: 0 auto;
 color: #fff;;
-font-size: 22px;
+font-size: 21px;
 background-color: blue;
 padding: 30px;
 }
@@ -21,4 +22,9 @@ padding: 30px;
 #rules p{
     line-height: 26px;
 
+}
+#rules .link-home{
+    padding: 20px;
+    border-radius: 4px;
+    background-color: gold;
 }

@@ -1,41 +1,42 @@
-
-.wrapper--main{
-   background-image: url(../img/first-screen.png);
-   
-   
-}
-
-.main-link{
-padding: 17px;
-font-size: 20px;
-font-weight: bold;
-text-transform: uppercase;
-
-display: inline-block;
-min-width: 200px;
+.wrapper--main {
+    background-image: url(../img/first-screen.png);
 
 }
-.main-link--start{
-   background-color: gold; 
-color: black;
+
+.main-link {
+    padding: 13.2% 5%;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 200px;
 
 }
-.main-link--rules{
-    background-color:blue;
+
+.main-link--start {
+    background-color: gold;
+    color: black;
+
+}
+
+.main-link--rules {
+    background-color: blue;
     color: #fff;
 
 }
-.link-wrapper{
+
+.link-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 23px;
+    margin-bottom: 2%;
     text-align: center;
 }
-.main-wrapper{
+
+.main-wrapper {
     justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    padding-top: 9.2%;
+    padding-top: 23.2%;
 }
