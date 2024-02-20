@@ -1,9 +1,10 @@
 const questions = {
-    naturalSciences: {
-        attemps: 3,
+    naturalScience: {
+        attemps: 1,
         questions: [{
             question: 'Which of the following men does not have a chemical element named after him?',
-            answers: ['Albert Einstein',
+            answers: [
+                'Albert Einstein',
                 'Niels Bohr',
                 'Isaac Newton',
                 'Enrico Fermi'],
@@ -11,7 +12,8 @@ const questions = {
         },
         {
             question: 'A magnet would most likely attract which of the following?',
-            answers: ['Metal',
+            answers: [
+                'Metal',
                 'Plastic',
                 'Wood',
                 'The wrong man'],
@@ -20,7 +22,8 @@ const questions = {
         {
 
             question: 'Which branch of Natural Science studies the fundamental forces of nature, matter, and energy?',
-            answers: ['Biology',
+            answers: [
+                'Biology',
                 'Chemistry',
                 'Physics',
                 'Geology'],
@@ -29,7 +32,8 @@ const questions = {
         {
 
             question: 'What is the study of matter, its composition, properties, and changes called?',
-            answers: ['Physics',
+            answers: [
+                'Physics',
                 'Biology',
                 'Chemistry',
                 'Astronomy'],
@@ -38,7 +42,8 @@ const questions = {
         {
 
             question: 'Which Natural Science discipline focuses on the study of living organisms and their biological processes?',
-            answers: ['Physics',
+            answers: [
+                'Physics',
                 'Chemistry',
                 'Biology',
                 'Geology'],
@@ -47,7 +52,8 @@ const questions = {
         {
 
             question: 'Which Natural Science field focuses on the interactions between humans and their environment?',
-            answers: ['Physics',
+            answers: [
+                'Physics',
                 'Astronomy',
                 'Environmental Science',
                 'Geology'],
@@ -56,7 +62,8 @@ const questions = {
         {
 
             question: 'What is the study of the distribution and abundance of species and their interactions within ecosystems?',
-            answers: ['Zoology',
+            answers: [
+                'Zoology',
                 'Botany',
                 'Ecology',
                 'Genetics'],
@@ -65,7 +72,8 @@ const questions = {
         {
 
             question: 'Which Natural Science discipline studies the classification and behavior of plants?',
-            answers: ['Zoology',
+            answers: [
+                'Zoology',
                 'Botany',
                 'Paleontology',
                 'Genetics'],
@@ -74,7 +82,8 @@ const questions = {
         {
 
             question: 'What is the study of animals, their physiology, and behavior known as?',
-            answers: ['Zoology',
+            answers: [
+                'Zoology',
                 'Botany',
                 'Ecology',
                 'Genetics'],
@@ -84,7 +93,8 @@ const questions = {
 
 
             question: 'Which branch of Natural Science studies the Earth’s oceans, including marine life and ocean currents?',
-            answers: ['Meteorology',
+            answers: [
+                'Meteorology',
                 'Oceanography',
                 'Paleontology',
                 'Astronomy'],
@@ -93,7 +103,8 @@ const questions = {
         {
 
             question: 'What is the study of ancient life through fossils called?',
-            answers: ['Meteorology',
+            answers: [
+                'Meteorology',
                 'Paleontology',
                 'Oceanography',
                 'Geology'],
@@ -102,7 +113,8 @@ const questions = {
         {
 
             question: 'Which Natural Science discipline studies the Earth’s atmosphere, weather patterns, and climate?',
-            answers: ['Meteorology',
+            answers: [
+                'Meteorology',
                 'Paleontology',
                 'Oceanography',
                 'Astronomy'],
@@ -111,7 +123,8 @@ const questions = {
         {
 
             question: 'Which branch of Natural Science focuses on the study of the universe and celestial objects?',
-            answers: ['Meteorology',
+            answers: [
+                'Meteorology',
                 'Paleontology',
                 'Astronomy',
                 'Oceanography'],
@@ -120,7 +133,8 @@ const questions = {
         {
 
             question: 'What is the scientific study of heredity and genes called?',
-            answers: ['Genetics',
+            answers: [
+                'Genetics',
                 'Zoology',
                 'Botany',
                 'Ecology'],
@@ -129,7 +143,8 @@ const questions = {
         {
 
             question: 'Which Natural Science discipline studies the physical properties of matter and energy in the universe?',
-            answers: ['Meteorology',
+            answers: [
+                'Meteorology',
                 'Chemistry',
                 'Astronomy',
                 'Geology'],
@@ -138,7 +153,8 @@ const questions = {
         {
 
             question: 'What is the study of animal behavior called?',
-            answers: ['Zoology',
+            answers: [
+                'Zoology',
                 'Botany',
                 'Genetics',
                 'Ethology'],
@@ -147,7 +163,8 @@ const questions = {
         {
 
             question: 'Which Natural Science field investigates the study of life in extreme environments, such as deep-sea vents or polar regions?',
-            answers: ['Microbiology',
+            answers: [
+                'Microbiology',
                 'Biophysics',
                 'Astrobiology',
                 'Geobiology'],
@@ -156,7 +173,8 @@ const questions = {
         {
 
             question: 'What is the branch of Natural Science that focuses on the study of microorganisms?',
-            answers: ['Microbiology',
+            answers: [
+                'Microbiology',
                 'Biophysics',
                 'Astrobiology',
                 'Geobiology'],
@@ -165,7 +183,8 @@ const questions = {
         {
 
             question: 'Which Natural Science discipline involves the study of biological processes at the molecular level?',
-            answers: ['Biophysics',
+            answers: [
+                'Biophysics',
                 'Microbiology',
                 'Genetics',
                 'Biochemistry'],
@@ -174,22 +193,24 @@ const questions = {
         {
 
             question: 'What is the study of the origin, evolution, and distribution of life in the universe called?',
-            answers: ['Microbiology',
+            answers: [
+                'Microbiology',
                 'Astrobiology',
                 'Geobiology',
                 'Biophysics'],
             correctAnswer: 'Astrobiology',
         },
-        {
 
-        },]
+
+        ]
     },
 
 
     history: {
         questions: [{
             question: 'Who was the first ruler of the Mongol Empire?',
-            answers: ['Tolui Khan',
+            answers: [
+                'Tolui Khan',
                 'Ariq Böke',
                 'Ögedei Khan',
                 'Genghis Khan'],
@@ -198,7 +219,8 @@ const questions = {
         {
 
             question: 'What was the capital city of the Inca Empire?',
-            answers: ['Cusco',
+            answers: [
+                'Cusco',
                 'Domingo',
                 'Istanbul',
                 'Tenochtitlan'],
@@ -207,7 +229,8 @@ const questions = {
         {
 
             question: 'Who fought in the Hundred Years’ War?',
-            answers: ['Germany and Austria',
+            answers: [
+                'Germany and Austria',
                 'Spain and Portugal',
                 'England and France',
                 'Spain and England'],
@@ -216,7 +239,8 @@ const questions = {
         {
 
             question: 'During which war was a Christmas Truce called?',
-            answers: ['World War I',
+            answers: [
+                'World War I',
                 'World War II',
                 'American Civil War',
                 'The Revolutionary War'],
@@ -225,7 +249,8 @@ const questions = {
         {
 
             question: 'How old was King Tutankhamun when he died?',
-            answers: [17,
+            answers: [
+                17,
                 19,
                 21,
                 25],
@@ -234,7 +259,8 @@ const questions = {
         {
 
             question: 'Which Greek goddess was the Parthenon dedicated to?',
-            answers: ['Aphrodite',
+            answers: [
+                'Aphrodite',
                 'Artemis',
                 'Hera',
                 'Athena'],
@@ -243,7 +269,8 @@ const questions = {
         {
 
             question: 'Which ancient figure is typically thought of as the founder/"father" of Western philosophy?',
-            answers: ['Socrates',
+            answers: [
+                'Socrates',
                 'Aristotle',
                 'Epicurus',
                 'Diogenes'],
@@ -252,7 +279,8 @@ const questions = {
         {
 
             question: 'What was the language of the Aztecs known as?',
-            answers: ['Sumerian',
+            answers: [
+                'Sumerian',
                 'Aramaic',
                 'Nahuatl',
                 'Assyrian'],
@@ -261,7 +289,8 @@ const questions = {
         {
 
             question: 'The Ptolemy dynasty ruled which ancient kingdom?',
-            answers: ['China',
+            answers: [
+                'China',
                 'Iran',
                 'Peru',
                 'Egypt'],
@@ -270,7 +299,8 @@ const questions = {
         {
 
             question: 'The ancient city of Rome was built on how many hills?',
-            answers: [4,
+            answers: [
+                4,
                 7,
                 11,
                 20],
@@ -279,7 +309,8 @@ const questions = {
         {
 
             question: 'Who painted the mural of "The Last Supper"?',
-            answers: ['Leonardo da Vinci',
+            answers: [
+                'Leonardo da Vinci',
                 'Michelangelo',
                 'Sandro Botticelli',
                 'Raffaello Sanzio'],
@@ -288,7 +319,8 @@ const questions = {
         {
 
             question: 'And in which country was the largest known T-Rex skeleton found?',
-            answers: ['The U.S.A.',
+            answers: [
+                'The U.S.A.',
                 'Morocco',
                 'Mexico',
                 'Canada'],
@@ -307,7 +339,8 @@ const questions = {
         {
 
             question: 'Greenland was a colony of which country until 1981?',
-            answers: ['Norway',
+            answers: [
+                'Norway',
                 'Denmark',
                 'Sweden',
                 'Finland'],
@@ -316,7 +349,8 @@ const questions = {
         {
 
             question: 'Which King of England was executed in 1649 during the English Civil War?',
-            answers: ['Charles I.',
+            answers: [
+                'Charles I.',
                 'Charles II.',
                 'Charles III.',
                 'Charles IV.'],
@@ -325,7 +359,8 @@ const questions = {
         {
 
             question: 'The ancient city of Rome was built on how many hills?',
-            answers: [5,
+            answers: [
+                5,
                 8,
                 7,
                 4],
@@ -334,7 +369,8 @@ const questions = {
         {
 
             question: 'Which century did the French Revolution take place in?',
-            answers: ['The 18th Century',
+            answers: [
+                'The 18th Century',
                 'The 19th Century',
                 'The 20th Century',
                 'The 21th Century'],
@@ -343,7 +379,8 @@ const questions = {
         {
 
             question: ' In which year was the Berlin Wall torn down?',
-            answers: [1890,
+            answers: [
+                1890,
                 1945,
                 1948,
                 1989],
@@ -352,7 +389,8 @@ const questions = {
         {
 
             question: 'What nation separated from the United Kingdom in 1921?',
-            answers: ['Ireland',
+            answers: [
+                'Ireland',
                 'Danmark',
                 'Iceland',
                 'Great Britain'],
@@ -361,21 +399,23 @@ const questions = {
         {
 
             question: 'The 1707 Acts of Union was an event that combined what?',
-            answers: ['England and France',
+            answers: [
+                'England and France',
                 'Ireland and Germany',
                 'England and Scotland',
                 'Austria and Belgium'],
             correctAnswer: 'England and Scotland',
         },
-        {
 
-        }]
+
+        ]
     },
 
     literature: {
         questions: [{
             question: 'Who is often referred to as the “Bard of Avon” and is considered one of the greatest playwrights in English literature?',
-            answers: ['John Milton',
+            answers: [
+                'John Milton',
                 'William Shakespeare',
                 'Charles Dickens',
                 'Jane Austen'],
@@ -384,7 +424,8 @@ const questions = {
         {
 
             question: 'Which epic Old English poem tells the story of the hero Beowulf and his battles against monsters and dragons?',
-            answers: ['The Canterbury Tales',
+            answers: [
+                'The Canterbury Tales',
                 'Paradise Lost',
                 'Beowulf',
                 'The Divine Comedy'],
@@ -393,7 +434,8 @@ const questions = {
         {
 
             question: 'Which English Romantic poet wrote the poem “Ode to a Nightingale” and is known for his association with “Lake Poets” like Wordsworth and Coleridge?',
-            answers: ['Lord Byron',
+            answers: [
+                'Lord Byron',
                 'John Keats',
                 'William Wordsworth',
                 'Percy Bysshe Shelley'],
@@ -402,7 +444,8 @@ const questions = {
         {
 
             question: 'Who wrote the novel “Pride and Prejudice,” exploring themes of love, class, and societal expectations in 19th-century England?',
-            answers: ['Jane Austen',
+            answers: [
+                'Jane Austen',
                 'Charlotte Bronte',
                 'George Eliot',
                 'Emily Dickinson'],
@@ -411,7 +454,8 @@ const questions = {
         {
 
             question: 'Which Victorian author wrote the novel “Oliver Twist,” depicting the struggles of a young orphan in London’s impoverished neighborhoods?',
-            answers: ['Charles Dickens',
+            answers: [
+                'Charles Dickens',
                 'Thomas Hardy',
                 'George Eliot',
                 'Emily Bronte'],
@@ -420,7 +464,8 @@ const questions = {
         {
 
             question: 'Who is known for the Gothic novel “Frankenstein; or, The Modern Prometheus,” which explores themes of creation and responsibility?',
-            answers: ['Mary Shelley',
+            answers: [
+                'Mary Shelley',
                 'Bram Stoker',
                 'Edgar Allan Poe',
                 'Oscar Wilde'],
@@ -429,7 +474,8 @@ const questions = {
         {
 
             question: 'Which English playwright wrote the comedy “The Importance of Being Earnest” and is known for his wit and satire?',
-            answers: ['Oscar Wilde',
+            answers: [
+                'Oscar Wilde',
                 'George Bernard Shaw',
                 'Samuel Beckett',
                 'William Congreve'],
@@ -438,7 +484,8 @@ const questions = {
         {
 
             question: 'Which author wrote the epic fantasy series “The Lord of the Rings” and “The Hobbit”?',
-            answers: ['J.R.R. Tolkien',
+            answers: [
+                'J.R.R. Tolkien',
                 'C.S. Lewis',
                 'J.K. Rowling',
                 'Philip Pullman'],
@@ -447,7 +494,8 @@ const questions = {
         {
 
             question: 'In which Shakespearean tragedy does the character Othello, a Moorish general, become manipulated by the villain Iago?',
-            answers: ['Hamlet',
+            answers: [
+                'Hamlet',
                 'Macbeth',
                 'Othello',
                 'King Lear'],
@@ -456,7 +504,8 @@ const questions = {
         {
 
             question: 'Who wrote the play “Romeo and Juliet,” a tragic love story set in Verona, Italy?',
-            answers: ['William Shakespeare',
+            answers: [
+                'William Shakespeare',
                 'Oscar Wilde',
                 'Tennessee Williams',
                 'Anton Chekhov'],
@@ -465,7 +514,8 @@ const questions = {
         {
 
             question: ' In which novel do we find the character Huckleberry Finn and his journey down the Mississippi River with the runaway slave Jim?',
-            answers: ['The Adventures of Tom Sawyer',
+            answers: [
+                'The Adventures of Tom Sawyer',
                 'Moby-Dick',
                 'The Great Gatsby',
                 'The Catcher in the Rye'],
@@ -474,7 +524,8 @@ const questions = {
         {
 
             question: 'Which Romantic poet wrote the introspective and autobiographical work “Lines Composed a Few Miles Above Tintern Abbey”?',
-            answers: ['William Wordsworth',
+            answers: [
+                'William Wordsworth',
                 'Samuel Taylor Coleridge',
                 'Lord Byron',
                 'Percy Bysshe Shelley'],
@@ -483,7 +534,8 @@ const questions = {
         {
 
             question: 'In which Shakespearean play do we find the character Lady Macbeth, who persuades her husband to commit regicide?',
-            answers: ['Hamlet',
+            answers: [
+                'Hamlet',
                 'Macbeth',
                 'King Lear',
                 'Julius Caesar'],
@@ -492,7 +544,8 @@ const questions = {
         {
 
             question: 'Which American poet is known for her reclusive lifestyle and her poems exploring themes of nature, death, and immortality?',
-            answers: ['Emily Dickinson',
+            answers: [
+                'Emily Dickinson',
                 'Robert Frost',
                 'Walt Whitman',
                 'Edgar Allan Poe'],
@@ -501,7 +554,8 @@ const questions = {
         {
 
             question: 'Which Romantic poet wrote the poems “Ode to a Skylark” and “Ode to the West Wind”?',
-            answers: ['Percy Bysshe Shelley',
+            answers: [
+                'Percy Bysshe Shelley',
                 'John Keats',
                 'Lord Byron',
                 'William Wordsworth'],
@@ -510,7 +564,8 @@ const questions = {
         {
 
             question: 'Who is the author of the satirical novel “Gulliver’s Travels,” where the protagonist Lemuel Gulliver voyages to various strange lands?',
-            answers: ['Jonathan Swift',
+            answers: [
+                'Jonathan Swift',
                 'Alexander Pope',
                 'Samuel Johnson',
                 'Daniel Defoe'],
@@ -519,7 +574,8 @@ const questions = {
         {
 
             question: 'In which Shakespearean play does the character Hamlet grapple with existential questions and seek revenge for his father’s death?',
-            answers: ['Hamlet',
+            answers: [
+                'Hamlet',
                 'Macbeth',
                 'Othello',
                 'Romeo and Juliet'],
@@ -528,7 +584,8 @@ const questions = {
         {
 
             question: ' Which 20th-century American author is known for the novel “The Great Gatsby,” depicting the Jazz Age and the American Dream?',
-            answers: ['F. Scott Fitzgerald',
+            answers: [
+                'F. Scott Fitzgerald',
                 'Ernest Hemingway',
                 'John Steinbeck',
                 'William Faulkner'],
@@ -537,7 +594,8 @@ const questions = {
         {
 
             question: 'Who wrote the poem “The Waste Land,” which is considered one of the most significant works of 20th-century literature?',
-            answers: ['T.S. Eliot',
+            answers: [
+                'T.S. Eliot',
                 'W.H. Auden',
                 'Ezra Pound',
                 'Langston Hughes'],
@@ -546,14 +604,15 @@ const questions = {
         {
 
             question: 'Which British novelist is known for works like “1984” and “Animal Farm,” exploring themes of totalitarianism and dystopia?',
-            answers: ['George Orwell',
+            answers: [
+                'George Orwell',
                 'Aldous Huxley',
                 'Ray Bradbury',
                 'Margaret Atwood'],
             correctAnswer: 'George Orwell',
         },
-        {
-        }]
+
+        ]
     },
 
 
@@ -561,7 +620,8 @@ const questions = {
     sport: {
         questions: [{
             question: 'What sport is considered the most popular in the world?',
-            answers: ['Football',
+            answers: [
+                'Football',
                 'Tennis',
                 'Golf',
                 'Basketball'],
@@ -570,7 +630,8 @@ const questions = {
         {
 
             question: 'What year is officially recognized as the beginning of the modern Olympic Games?',
-            answers: [1886,
+            answers: [
+                1886,
                 1896,
                 1906,
                 1916],
@@ -579,7 +640,8 @@ const questions = {
         {
 
             questions: 'What distance do marathon participants run?',
-            answers: ['10 kilometres',
+            answers: [
+                '10 kilometres',
                 '21 kilometres',
                 '42,195 kilometres',
                 '100 kilometres'],
@@ -588,7 +650,8 @@ const questions = {
         {
 
             question: 'Which athlete won the largest number of gold medals at the Olympic Games?',
-            answers: ['Michael Phelps',
+            answers: [
+                'Michael Phelps',
                 'Usain Bolt',
                 'Maria Sharapova',
                 'Yusuf Bolt'],
@@ -597,7 +660,8 @@ const questions = {
         {
 
             question: 'In what year were the first modern Winter Olympic games held?',
-            answers: [1924,
+            answers: [
+                1924,
                 1932,
                 1948,
                 1956],
@@ -606,7 +670,8 @@ const questions = {
         {
 
             question: 'What game is called the “sport of kings”?',
-            answers: ['Bridge',
+            answers: [
+                'Bridge',
                 'Go',
                 'Chess',
                 'Tennis'],
@@ -615,7 +680,8 @@ const questions = {
         {
 
             question: ' In what year was the International Football Federation (FIFA) founded?',
-            answers: [1904,
+            answers: [
+                1904,
                 1923,
                 1948,
                 1960],
@@ -624,7 +690,8 @@ const questions = {
         {
 
             question: 'Which country won the most gold medals at the Summer Olympics?',
-            answers: ['United Kingdom ',
+            answers: [
+                'United Kingdom ',
                 'Africa',
                 'China',
                 'United States'],
@@ -633,7 +700,8 @@ const questions = {
         {
 
             question: 'What is the maximum number of players on the field at the same time in a football team?',
-            answers: [9,
+            answers: [
+                9,
                 10,
                 11,
                 12],
@@ -642,7 +710,8 @@ const questions = {
         {
 
             question: 'What type of wrestling is represented at the Olympic Games?',
-            answers: ['Greco-Roman struggle',
+            answers: [
+                'Greco-Roman struggle',
                 'Jiu-jitsu',
                 'Kickboxing',
                 'Taekwondo'],
@@ -651,7 +720,8 @@ const questions = {
         {
 
             question: 'Which sport includes the disciplines “biathlon” and “ski racing with obstacles”?',
-            answers: ['Skis',
+            answers: [
+                'Skis',
                 'Biathlon',
                 'Jumping with trampoline',
                 'Skeleton'],
@@ -660,7 +730,8 @@ const questions = {
         {
 
             question: 'What is the maximum number of players on the field at the same time in a volleyball team?',
-            answers: [4,
+            answers: [
+                4,
                 5,
                 6,
                 7],
@@ -669,7 +740,8 @@ const questions = {
         {
 
             question: 'What kind of sport includes the discipline “freestyle”?',
-            answers: ['Swimming',
+            answers: [
+                'Swimming',
                 'Skiing',
                 'Figure skating',
                 'Snowboarding'],
@@ -678,7 +750,8 @@ const questions = {
         {
 
             question: 'Who is the record holder for the number of goals scored at one World Football Championship?',
-            answers: ['Pele',
+            answers: [
+                'Pele',
                 'Miroslav Klose',
                 'Diego Maradona',
                 'Gerd Müller'],
@@ -687,7 +760,8 @@ const questions = {
         {
 
             question: 'Which country held the first official football match?',
-            answers: ['England',
+            answers: [
+                'England',
                 'Brazil',
                 'Germany',
                 'Uruguay'],
@@ -696,7 +770,8 @@ const questions = {
         {
 
             question: 'Which club won the UEFA Champions League the most times?',
-            answers: ['Real Madrid',
+            answers: [
+                'Real Madrid',
                 'Barcelona',
                 'Bayern Munich',
                 'Manchester United'],
@@ -705,7 +780,8 @@ const questions = {
         {
 
             question: 'Which football player was recognized as the best player in the world according to FIFA in 2020?',
-            answers: ['Lionel Messi',
+            answers: [
+                'Lionel Messi',
                 'Cristiano Ronaldo',
                 'Neymar',
                 'Kylian Mbappé'],
@@ -714,7 +790,8 @@ const questions = {
         {
 
             question: 'Which football club won the UEFA Champions League in 2021?',
-            answers: ['PSG',
+            answers: [
+                'PSG',
                 'Manchester City',
                 'Bayern Munich',
                 'Chelsea'],
@@ -723,7 +800,8 @@ const questions = {
         {
 
             question: 'Which event is considered the most prestigious in the world of football?',
-            answers: ['World Cup',
+            answers: [
+                'World Cup',
                 'Confederations Cup',
                 'Cup of America',
                 'Championship of Europe'],
@@ -732,27 +810,28 @@ const questions = {
         {
 
             question: 'Which country won the 2018 World Cup?',
-            answers: ['France',
+            answers: [
+                'France',
                 'Argentina',
                 'Germany',
                 'Italy'],
             correctAnswer: 'France',
         },
-        {
-        }]
+
+        ]
     }
 }
 const cathegory = [{
-    cathegory: 'naturalScience',
+    cathegory: './naturalScience.html',
     title: 'Natural Sciences'
 }, {
-    cathegory: 'history',
+    cathegory: './history.html',
     title: 'History'
 }, {
-    cathegory: 'literature',
+    cathegory: './literature.html',
     title: 'Literature'
 }, {
-    cathegory: 'sport',
+    cathegory: './sport.html',
     title: 'Sport'
 }]
 
@@ -769,7 +848,26 @@ const rules = {
         'Ask the Audience – the audience is asked the same question as the contestant and a quick poll is done to show their answers. If the chart shows a clear majority for a specific answer, this Lifeline can be extremely helpful, but it’s still up to the contestant whether or not to go with the results obtained from the audience.',
         'Phone a Friend – Contestants are allowed to make a 30-second call to a friend or family member and ask them if they know the answer to the question.',
     ]
-
-
-
 }
+const scoreArray = [
+
+{ score: '&euro;100',id:'sum-100', isFixed: false },
+{ score: '&euro;200',id:'sum-200', isFixed: false },
+{ score: '&euro;300',id:'sum-300', isFixed: false },
+{ score: '&euro;500',id:'sum-500', isFixed: false },
+{ score: '&euro;1,000',id:'sum-1000', isFixed: true },
+{ score: '&euro;2,000',id:'sum-2000', isFixed: false },
+{ score: '&euro;4,000',id:'sum-4000', isFixed: false },
+{ score: '&euro;8,000',id:'sum-8000', isFixed: false },
+{ score: '&euro;16,000',id:'sum-16000', isFixed: false },
+{ score: '&euro;32,000',id:'sum-32000', isFixed: true },
+{ score: '&euro;64,000',id:'sum-64000', isFixed: false },
+{ score: '&euro;125,000',id:'sum-125000', isFixed: false },
+{ score: '&euro;250,000',id:'sum-250000', isFixed: false },
+{ score: '&euro;500,000',id:'sum-500000', isFixed: false },
+{ score: '&euro;1,000,000',id:'sum-1000000', isFixed: true },
+]
+const gameImg = [{src:'./img/fiftyfifty.png',alt:'50/50',class:'life-line-img'},
+{src:'./img/call.png',alt:'call',class:'life-line-img'},
+{src:'./img/audience.png',alt:'audience',class:'life-line-img'}]
+
