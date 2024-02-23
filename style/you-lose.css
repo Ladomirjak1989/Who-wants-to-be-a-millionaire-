@@ -1,0 +1,25 @@
+.you-lose-wrapper{
+    background-image: url(../img/lose2.png);
+}
+.you-lose-wrapper h2{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    font-size: 100px;
+}
+.you-lose-wrapper a {
+    color: #000;
+    background-color: rgb(225, 164, 50);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px; 
+    margin-left: 480px;
+    
+    
+}
+

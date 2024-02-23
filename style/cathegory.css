@@ -13,35 +13,41 @@
 }
 
 .cathegory-wrapper {
-    /* background: blue;
-    padding: 30px; */
+    padding: 30px;
     margin: 0 auto;
     max-width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 
 }
 
 .cathegory-wrapper h2 {
-    color: #fff;
+    color: #000;
     font-size: 30px;
+    background-color:rgb(225, 164, 50) ;
+    border-radius: 5px; 
+    padding: 15px;
 
 }
 
 .cathegory-conteiner {
-    background: blue;
+    background: rgb(18, 18, 140);
     padding: 30px;
+    margin-top: 320px;
+
 }
 
 #cathegory a {
-    color: blue;
-    background-color: gold;
+    color: #000;
+    background-color: rgb(225, 164, 50);
     text-align: center;
     display: inline-block;
     padding: 15px 30px;
     max-width: 150px;
     width: 100%;
     border-radius: 5px;
+    font-size: 20px;
 }
