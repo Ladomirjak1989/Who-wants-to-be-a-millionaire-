@@ -20,9 +20,8 @@ function startGame() {
     handleClickfiftyfifty()
     const timerParent = document.querySelector('#timer')
     game.intervalId = game.createInterval(timerParent)
-    // startTimerMusic ()
     startTimerMusic ()
-    // stopTimerMusic()
+    
 
 }
 function startTimerMusic () {
@@ -130,8 +129,6 @@ function handleClick() {
                         }, 3000)
                         return
                     }
-                    console.log(game.amount)
-                    console.log(game.answerCount)
                     setTimeout(() => {
                         startGame()
                         startTimerMusic ()

@@ -7,8 +7,3 @@ cathegory.forEach(item => {
     `
 })
 cathegoryParent.innerHTML = html
-
-function handleclickCathegory (id) { 
-    console.log(id)
-    window.location.assign()
-}
