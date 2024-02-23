@@ -5,14 +5,14 @@
 #rules{
 display: flex;
 flex-direction: column;
-max-width: 65%;
+max-width: 67%;
 justify-content: center;
 align-items: center;
 gap: 20px;
 margin: 0 auto;
-color: #fff;;
+color: #000;
 font-size: 21px;
-background-color: blue;
+background-color: rgb(154, 154, 241);
 padding: 30px;
 }
 #rules h2{
@@ -21,10 +21,11 @@ padding: 30px;
 }
 #rules p{
     line-height: 26px;
+    
 
 }
 #rules .link-home{
     padding: 20px;
     border-radius: 4px;
-    background-color: gold;
+    background-color: orange;
 }

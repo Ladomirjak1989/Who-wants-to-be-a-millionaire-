@@ -1,0 +1,29 @@
+.you-win-wrapper {
+    background-image: url(../img/win2.png);
+}
+
+.you-win-wrapper h2 {
+    color: #fff;
+    padding-bottom: 100px;
+    font-size: 70px;
+}
+
+.you-win-wrapper a {
+    color: #000;
+    background-color: rgb(225, 164, 50);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.you-win-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+}

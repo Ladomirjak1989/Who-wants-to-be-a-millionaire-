@@ -7,6 +7,11 @@
    width: 150px;
    height: 150px;
 
+
+}
+
+.life-line-item {
+   cursor: pointer;
 }
 
 .life-line-list {
@@ -20,55 +25,60 @@
    min-height: 100vh;
 }
 
+.life-line-block {
+   cursor: not-allowed;
+   opacity: 60%;
+
+}
+
 .wrapper-game {
    display: flex;
    justify-content: space-between;
 
 
-}
-#timer{
-   height: 50px;
-   text-align: center;
-   
+
 }
 
 .score-list {
-   padding: 20px;
-   background-color: gold;
-   min-height: 100vh;
+   background-color: rgb(10, 10, 116);
+   border-radius: 10px;
+   padding: 15px;
+   min-height: 70vh;
    max-width: 200px;
    width: 100%;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   gap: 10px;
+   gap: 7px;
+   margin-top: 10px;
+   border: solid 3px bisque;
+
 }
 
 .score-item {
    font-size: 16px;
    font-weight: bold;
-   padding: 5px;
+   padding: 10px;
    min-width: 100px;
    border-radius: 5px;
-   background-color: aquamarine;
+   background-color: bisque;
    border: 1px solid black;
    text-align: center;
 }
 
 .score-item-active {
-   background-color: red;
-   font-size: 16px;
+   background-color: rgb(244, 172, 72);
+   font-size: 22px;
    font-weight: bold;
    padding: 5px;
    min-width: 100px;
    border-radius: 5px;
-   border: 1px solid black;
+   border: 3px solid black;
    text-align: center;
 }
 
 #root {
-   background-color: blue;
    min-height: 100vh;
    display: flex;
    flex-direction: column;
@@ -80,29 +90,59 @@
 }
 
 .question {
-   background-color: bisque;
    display: flex;
    flex-direction: column;
    gap: 20px;
    padding: 20px;
    max-width: 700px;
+   cursor: pointer;
 
 }
 
 .question-item {
-   background-color: blue;
-   color: gold;
-   padding: 10px;
+   background-color: rgb(18, 18, 132);
+   color: #fff;
+   padding: 20px;
    text-align: center;
    cursor: pointer;
+   border-radius: 20px;
 }
 
 .question-list {
-   padding: 20px;
-   background-color: gold;
+   padding: 10px;
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    gap: 20px;
    font-size: 20px;
+
+
+
+}
+
+.block {
+   cursor: not-allowed;
+
+}
+
+.win {
+   background-color: red;
+
+}
+
+.question h2 {
+   background-color: rgb(18, 18, 132);
+   color: #fff;
+   padding: 25px;
+   text-align: center;
+   font-size: 25px;
+   border-radius: 15px;
+}
+
+#timer {
+   color: #fff;
+   font-size: 30px;
+   font-weight: bold;
+   height: 50px;
+   text-align: center;
 
 }
